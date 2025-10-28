@@ -6,9 +6,13 @@
 /*   By: mfrancis <mfrancis@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 21:57:01 by mfrancis          #+#    #+#             */
-/*   Updated: 2025/10/23 21:58:51 by mfrancis         ###   ########.fr       */
+/*   Updated: 2025/10/28 18:56:18 by mfrancis         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ScalarConverter.hpp"
 
+static void convert(const std::string &literal)
+{
+   
+}
