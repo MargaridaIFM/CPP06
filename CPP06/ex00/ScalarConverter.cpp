@@ -6,11 +6,26 @@
 /*   By: mfrancis <mfrancis@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 21:57:01 by mfrancis          #+#    #+#             */
-/*   Updated: 2025/10/29 21:07:41 by mfrancis         ###   ########.fr       */
+/*   Updated: 2025/10/29 21:42:01 by mfrancis         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ScalarConverter.hpp"
+
+ScalarConverter::ScalarConverter() {}
+
+ScalarConverter::ScalarConverter(const ScalarConverter &copy) 
+{ 
+    (void)copy;
+}
+
+ScalarConverter &ScalarConverter::operator=(const ScalarConverter &copy)
+{ 
+    (void)copy;
+    return *this; 
+}
+
+ScalarConverter::~ScalarConverter() {}
 
 void ScalarConverter::convert(const std::string &literal)
 {
@@ -27,3 +42,5 @@ void ScalarConverter::convert(const std::string &literal)
     else
         std::cerr << "Invalid literal!" << std::endl;
 }
+
+
