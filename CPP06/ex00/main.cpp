@@ -6,7 +6,7 @@
 /*   By: mfrancis <mfrancis@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 21:42:54 by mfrancis          #+#    #+#             */
-/*   Updated: 2025/10/28 18:55:06 by mfrancis         ###   ########.fr       */
+/*   Updated: 2025/10/29 17:24:09 by mfrancis         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,6 @@ int main(int argc, char *argv[])
         ScalarConverter::convert(argv[1]);
         return 1;
     }
-    std::cerr " Wrong number of arguments!" << std::endl;
+    std::cerr << " Wrong number of arguments!" << std::endl;
     return 0;
 }
