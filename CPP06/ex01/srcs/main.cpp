@@ -1,5 +1,0 @@
-#include "Serializer.h"
-
-int main() {
-	return 0;
-}
